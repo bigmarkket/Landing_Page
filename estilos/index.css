@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+
+*{
+
+}
+
+/*Imagem de fundo*/
+
+#background{
+    width: 98.9vw;
+    height: 80vh;
+    background-image: url(../imagens/fundo2.jpeg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+#background > div{
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+}
+
+.titulo{
+    color: white;
+    font-size: 3vw;
+    font-family: "Outfit", sans-serif;
+}
+
+/*Primeiro bloco*/
+
+#description{
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#bloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloco > img{
+    width: 90%;
+    border-radius: 5px 10px;
+}
+
+#bloco2{
+    width: 40vw;
+}
+
+#cardFoco{
+    width: 25vw;
+    height: 50vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.308);
+}
+
+.card{
+    width: 20vw;
+    height: 45vh;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.308);
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+#cards{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+/*final*/
+
+#perguntas{
+    background-color: grey;
+    width: 100%;
+    height: 10vh;
+}
