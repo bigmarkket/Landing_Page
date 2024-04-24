@@ -4,6 +4,9 @@
 
 }
 
+main{
+    background-color: whitesmoke;
+}
 /*Imagem de fundo*/
 
 #background{
@@ -38,12 +41,12 @@
 /*Primeiro bloco*/
 
 #description{
-    background-color: whitesmoke;
+    background-color: white;
     margin: auto;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 15vh;
     width: 80vw;
-    height: 70vh;
+    padding: 20px 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -60,35 +63,46 @@
 }
 
 #bloco2{
-    width: 40vw;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blocotexto{
+    font-size: 1.5vw;
 }
 
 #cardFoco{
-    width: 25vw;
-    height: 50vh;
+    width: 18vw;
+    height: 45vh;
+    padding: 15px;
     background-color: whitesmoke;
     border-radius: 5px;
-    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.308);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
 }
 
 .card{
-    width: 20vw;
-    height: 45vh;
+    width: 15vw;
+    height: 40vh;
+    padding: 15px;
     background-color: whitesmoke;
     border-radius: 5px;
-    box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.308);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
     display: grid;
     grid-template-rows: 20% 80%;
 }
 
 #cards{
     width: 100%;
-    height: 55vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 3vw;
+    margin-bottom: 15vh;
+    text-align: center;
 }
 
 /*final*/
