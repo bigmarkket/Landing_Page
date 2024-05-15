@@ -74,24 +74,35 @@ main{
     font-size: 1.5vw;
 }
 
+.titulo, .card, #cardFoco, #blocotexto{
+    font-family: "Oswald", sans-serif;
+}
+
+#botaocadastro{
+    font-size: 1.2vw;
+}
+
+
 #cardFoco{
     width: 18vw;
     height: 45vh;
     padding: 15px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
+    font-size: 1.3vw;
 }
 
 .card{
     width: 15vw;
     height: 40vh;
     padding: 15px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.308);
     display: grid;
     grid-template-rows: 20% 80%;
+    font-size: 1.1vw;
 }
 
 #cards{
