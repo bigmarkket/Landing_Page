@@ -34,6 +34,11 @@ li{
     font-size: 1.2vw;
 }
 
+li:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
 a{
     text-decoration: none;
     color: gold;

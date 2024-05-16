@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
-    background-color: whitesmoke;
+    background: rgb(248,222,126);
+    background: linear-gradient(90deg, rgba(248, 222, 126, 0.751) 0%, rgba(217, 144, 88, 0.838) 100%);
 }
 
 header{
@@ -13,6 +17,59 @@ main{
 }
 
 main>div{
+    text-align: center;
     background-color: white;
+    width: 25vw;
+    height: 25vw;
     padding: 1vw;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div>h1{
+    font-size: 1.8vw
+}
+div>p{
+    font-size: 1vw;
+}
+
+div>a{
+    font-size: 1vw;
+    padding: .5vw;
+    border: 2px solid gold;
+    text-decoration: none;
+    color: gold;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+#botao:hover{
+    transform: scale(1.03);
+}
+
+#botao{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#suptitulo, #suptexto{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    resize: none;
+}
+
+#suptitulo{
+    height: 2vw;
+    font-size: .8vw;
+}
+#suptexto{
+    height: 8vw;
+    font-size: .8vw;
 }

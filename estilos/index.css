@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
-
-*{
-
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 main{
     background-color: whitesmoke;
 }
@@ -12,19 +9,18 @@ main{
 #background{
     width: 98.9vw;
     height: 80vh;
-    background-image: url(../imagens/fundo2.jpeg);
-    background-position: left top;
+    background-image: url(../imagens/fundolaranja20.png);
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: start;
     justify-content: center;
 }
 
 #background > div{
-    margin-right: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,9 +29,11 @@ main{
 }
 
 .titulo{
-    color: white;
+    color: black;
     font-size: 3vw;
-    font-family: "Outfit", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /*Primeiro bloco*/
@@ -106,6 +104,8 @@ main{
 }
 
 #cards{
+    background-color: whitesmoke;
+    padding: 5vw 0vw 5vw 0vw;
     width: 100%;
     display: flex;
     flex-direction: row;

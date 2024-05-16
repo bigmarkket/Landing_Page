@@ -24,11 +24,15 @@
 
     <main> 
         <div>
-            <h1>Suporte</h1>
-            <p>Essa é a caixa de suporte. <br>Você pode utiliza-la para enviar um ticket à nossa equipe!</p>
-            <textarea  name="code" placeholder="Digite o tipo de problema" cols="20" rows="2" required></textarea> <br>
-            <textarea  name="code" placeholder="Detalhe seu problema ou dúvida" cols="40" rows="10" required></textarea> <br>
-            <a  href="login.html">Logue p/ enviar</a>
+            <div>
+                <h1>Suporte</h1>
+                <p>Essa é a caixa de suporte. <br>Você pode utiliza-la para enviar um ticket à nossa equipe!</p>
+            </div>
+            <div>
+                <textarea id="suptitulo" name="code" placeholder="Tópico" cols="20" rows="2" required maxlength="80"></textarea>
+                <textarea id="suptexto" name="code" placeholder="Detalhe seu problema ou dúvida" cols="40" rows="10" required maxlength="4000"></textarea>
+            </div>
+            <div id="botao"><a  href="login.html">Logue p/ enviar</a></div>
         </div>
     </main>
 
