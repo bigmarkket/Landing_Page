@@ -6,7 +6,8 @@ header{
 }
 
 body{
-    background-color: whitesmoke;
+    background: rgb(248,222,126);
+    background: linear-gradient(90deg, rgba(248, 222, 126, 0.751) 0%, rgba(217, 144, 88, 0.838) 100%);
     font-family: "Rubik", sans-serif;
 }
 
@@ -15,7 +16,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: whitesmoke;
+
 }
 
 #titulo{
@@ -35,6 +36,8 @@ section{
 section>h1{
     font-size: 1.4vw;
 }
+
+
 
 section>h2{
     font-size: 1.4vw;

@@ -127,9 +127,6 @@ main{
     text-align: center;
 }
 
-.fundocard:hover #cardFoco:hover { 
-    transform: scale(0.95);
-}
 
 @keyframes anime{
     100%{
@@ -147,12 +144,12 @@ main{
         transform: translateY(-30px);
     }
 }
-/*.fundocard{
+.fundocard{
     padding: 3px;
     background: linear-gradient(90deg, rgb(247, 211, 81) 0%, rgba(239, 86, 15, 0.656) 50%, rgb(251, 215, 85) 100%);
     animation: anime 1.5s linear infinite;
     background-size: 200% 200%;
-}*/
+}
 /*final*/
 
 #perguntas{
